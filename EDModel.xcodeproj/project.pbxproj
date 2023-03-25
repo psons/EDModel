@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34AB646729CF610F001C0B28 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB646529CF610F001C0B28 /* Task.swift */; };
+		34AB646829CF610F001C0B28 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB646529CF610F001C0B28 /* Task.swift */; };
+		34AB646929CF610F001C0B28 /* EffortDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB646329CF610F001C0B28 /* EffortDomain.swift */; };
+		34AB646A29CF610F001C0B28 /* EffortDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB646329CF610F001C0B28 /* EffortDomain.swift */; };
+		34AB646B29CF610F001C0B28 /* Objective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB646429CF610F001C0B28 /* Objective.swift */; };
+		34AB646C29CF610F001C0B28 /* Objective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB646429CF610F001C0B28 /* Objective.swift */; };
+		34AB646D29CF610F001C0B28 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB646229CF610F001C0B28 /* Goal.swift */; };
+		34AB646E29CF610F001C0B28 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB646229CF610F001C0B28 /* Goal.swift */; };
+		34AB646F29CF610F001C0B28 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB646629CF610F001C0B28 /* AppState.swift */; };
+		34AB647029CF610F001C0B28 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB646629CF610F001C0B28 /* AppState.swift */; };
 		34E8787129CF3F9B00C958AF /* EDModel.docc in Sources */ = {isa = PBXBuildFile; fileRef = 34E8787029CF3F9B00C958AF /* EDModel.docc */; };
 		34E8787729CF3F9B00C958AF /* EDModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E8786C29CF3F9B00C958AF /* EDModel.framework */; };
 		34E8787C29CF3F9B00C958AF /* EDModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E8787B29CF3F9B00C958AF /* EDModelTests.swift */; };
@@ -24,6 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34AB646229CF610F001C0B28 /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		34AB646329CF610F001C0B28 /* EffortDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffortDomain.swift; sourceTree = "<group>"; };
+		34AB646429CF610F001C0B28 /* Objective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objective.swift; sourceTree = "<group>"; };
+		34AB646529CF610F001C0B28 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		34AB646629CF610F001C0B28 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		34E8786C29CF3F9B00C958AF /* EDModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EDModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E8786F29CF3F9B00C958AF /* EDModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDModel.h; sourceTree = "<group>"; };
 		34E8787029CF3F9B00C958AF /* EDModel.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EDModel.docc; sourceTree = "<group>"; };
@@ -53,6 +68,11 @@
 		34E8786229CF3F9B00C958AF = {
 			isa = PBXGroup;
 			children = (
+				34AB646629CF610F001C0B28 /* AppState.swift */,
+				34AB646329CF610F001C0B28 /* EffortDomain.swift */,
+				34AB646229CF610F001C0B28 /* Goal.swift */,
+				34AB646429CF610F001C0B28 /* Objective.swift */,
+				34AB646529CF610F001C0B28 /* Task.swift */,
 				34E8786E29CF3F9B00C958AF /* EDModel */,
 				34E8787A29CF3F9B00C958AF /* EDModelTests */,
 				34E8786D29CF3F9B00C958AF /* Products */,
@@ -194,6 +214,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34AB646A29CF610F001C0B28 /* EffortDomain.swift in Sources */,
+				34AB646C29CF610F001C0B28 /* Objective.swift in Sources */,
+				34AB646829CF610F001C0B28 /* Task.swift in Sources */,
+				34AB647029CF610F001C0B28 /* AppState.swift in Sources */,
+				34AB646E29CF610F001C0B28 /* Goal.swift in Sources */,
 				34E8787129CF3F9B00C958AF /* EDModel.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34AB646929CF610F001C0B28 /* EffortDomain.swift in Sources */,
+				34AB646B29CF610F001C0B28 /* Objective.swift in Sources */,
+				34AB646729CF610F001C0B28 /* Task.swift in Sources */,
+				34AB646F29CF610F001C0B28 /* AppState.swift in Sources */,
+				34AB646D29CF610F001C0B28 /* Goal.swift in Sources */,
 				34E8787C29CF3F9B00C958AF /* EDModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +425,7 @@
 		34E8788429CF3F9B00C958AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XX9BD4C763;
@@ -410,6 +441,7 @@
 		34E8788529CF3F9B00C958AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XX9BD4C763;
